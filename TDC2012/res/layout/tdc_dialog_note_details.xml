@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/tdc_img_content_desc_default"
+        android:src="@drawable/tdc_logo" />
+
+    <TextView
+        style="@style/general_textfield_label"
+        android:layout_gravity="center"
+        android:text="@string/tdc_dialog_noteinfo_title" />
+
+    <TextView
+        android:id="@+id/tdc_dialog_noteinfo_body"
+        style="@style/general_textfield_label"
+        android:textStyle="normal"
+        android:background="@color/ghost_white"
+        android:layout_height="100dp"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/tdc_dialog_noteinfo_ok"
+        style="@style/actions_home"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/tdc_dialog_noteinfo_ok" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tdc_logo"
+        android:contentDescription="@string/tdc_img_content_desc_default" />
+
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_speech_info_title" />
+
+    <TextView
+        android:id="@+id/tdc_speech_info_title"
+        style="@style/general_textfield_label"
+        android:textStyle="normal"
+        android:background="@color/ghost_white" />
+    
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_speech_info_speecher" />
+
+    <TextView
+        android:id="@+id/tdc_speech_info_speecher"
+        style="@style/general_textfield_label"
+        android:textStyle="normal"
+        android:lines="3"
+        android:background="@color/ghost_white" />
+
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_speech_info_desc" />
+
+    <TextView
+        android:id="@+id/tdc_speech_info_description"
+        style="@style/general_textfield_label"
+        android:background="@color/ghost_white"
+        android:textStyle="normal"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/tdc_speech_info_action_addnote"
+        style="@style/actions_home"
+        android:layout_margin="5dp"
+        android:layout_height="60dp"
+        android:text="@string/tdc_speech_info_action_add_note" />
+
+    <Button
+        android:id="@+id/tdc_speech_info_action_list_notes"
+        style="@style/actions_home"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:text="@string/tdc_speech_info_action_see_notes" />
+
+</LinearLayout>

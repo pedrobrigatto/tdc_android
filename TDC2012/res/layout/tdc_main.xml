@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tdc_logo"
+        android:contentDescription="@string/tdc_img_content_desc_default" />
+    
+    <ListView
+        android:id="@+id/tdc_home_all_speeches"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:text="@string/hello" />
+
+    <LinearLayout
+        android:id="@+id/tdc_main_input_secret_area"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/tdc_main_set_key" />
+        
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tdc_main_secret_key"
+            android:inputType="textPassword" />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/tdc_main_action_checksecret"
+            android:text="@string/tdc_main_action_checksecret" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tdc_home_addSpeech"
+        style="@style/actions_home"
+        android:text="@string/tdc_home_action_new_speech"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/tdc_home_addProfessional"
+        android:visibility="gone"
+        style="@style/actions_home"
+        android:text="@string/tdc_home_action_new_professional" />
+
+    <Button
+        android:id="@+id/tdc_home_listProfessional"
+        style="@style/actions_home"
+        android:text="@string/tdc_home_action_list_professionals" />
+
+</LinearLayout>

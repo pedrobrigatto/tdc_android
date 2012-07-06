@@ -1,0 +1,13 @@
+<tdc2012>
+    <days>
+      <day which="04/07/2012">
+        <speech author="Rogério Saran" begin="10:10" ends="11:00" subject="Android: o mercado de aplicativos no Brasil" />
+        <speech author="Guilherme Frenhani / Julia Perdigueiro" begin="11:10" ends="12:00" subject="Construindo seu aplicativo Android desde o início usando MOTODEV Studio" />
+        <speech author="Neto Marin" begin="13:10" ends="14:00" subject="Intents, services, receivers e outras coisas ..." />
+        <speech author="Alexandre Tolstenko" begin="14:10" ends="15:00" subject="Conceitos, limitações e monetização de Jogos para Android" />
+        <speech author="Pedro Brigatto" begin="15:40" ends="16:30" subject="Modelos de persistência na plataforma Android" />
+        <speech author="Neto Marin" begin="16:40" ends="17:30" subject="Explorando novas telas com o Google TV" />
+        <speech author="Ryan Bruno C. Padilha" begin="15:40" ends="16:30" subject="Plataforma Android: produtividade além do SDK" />
+      </day>
+    </days>
+</tdc2012>

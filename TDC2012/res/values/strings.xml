@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TDC2012Activity!</string>
+    <string name="app_name">TDC2012</string>
+    
+    <string name="tdc_app_preferences">TDC2012Prefs</string>
+    <string name="tdc_preferences_secret_key_name">tdc_secret_key</string>
+    <string name="tdc_preferences_secret_key">xwtdc2012pecb</string>
+    
+    <string name="tdc_home_action_new_professional">Add professional</string>
+    <string name="tdc_home_action_new_speech">Add Speech</string>
+    <string name="tdc_home_action_list_professionals">List professionals</string>
+    
+    <string name="tdc_img_content_desc_default">TDC app image</string>
+    
+    <string name="tdc_main_set_key">Enter key </string>
+    <string name="tdc_main_action_checksecret">Go</string>
+    <string name="tdc_main_message_wrong_key">Wrong key, try again.</string>
+    
+    <string name="tdc_add_prof_name">Name </string>
+    <string name="tdc_add_prof_name_hint">Type the professional name</string>
+    <string name="tdc_add_prof_role">Role </string>
+    <string name="tdc_add_prof_action_add">Add</string>
+    <string name="tdc_add_prof_action_discard">Discard</string>
+    <string name="tdc_add_prof_prof_saved">Professional was successfully saved.</string>
+    <string name="tdc_add_prof_prof_not_saved">Professional was not saved.</string>
+    <string name="tdc_add_prof_empty_fields">Fill in the blanks and try again.</string>
+    
+    <string name="tdc_add_speech_title">Title </string>
+    <string name="tdc_add_speech_desc">Description </string>
+    <string name="tdc_add_speech_title_hint">Add a title here</string>
+    <string name="tdc_add_speech_when">Date </string>
+    <string name="tdc_add_speech_professional">Professional</string>
+    <string name="tdc_add_speech_action_save">Save</string>
+    <string name="tdc_add_speech_action_discard">Discard</string>
+    <string name="tdc_add_speech_date_hint">Select a date</string>
+    <string name="tdc_add_speech_description_hint">Enter a description here</string>
+    <string name="tdc_add_speech_success">The speech was successfully saved.</string>
+    <string name="tdc_add_speech_failure">The speech could not be saved.</string>
+    <string name="tdc_add_speech_blank_fields">Fill in the blanks and try again.</string>
+    
+    <string name="tdc_speech_info_title">Title</string>
+    <string name="tdc_speech_info_speecher">Speecher</string>
+    <string name="tdc_speech_info_desc">Summary</string>
+    <string name="tdc_speech_info_action_add_note">Add a note</string>
+    <string name="tdc_speech_info_action_see_notes">See My Notes</string>
+    
+    <string name="tdc_dialog_addnote_title">Add Note</string>
+    <string name="tdc_dialog_addnote_save">Save</string>
+    <string name="tdc_dialog_addnote_discard">Discard</string>
+    
+    <string name="tdc_dialog_noteinfo_title">Note Details</string>
+    <string name="tdc_dialog_noteinfo_ok">OK</string>
+    
+    <string name="tdc_notes_list_title">My Notes</string>
+    <string name="tdc_mynotes_all_notes_title">My Notes</string>
+    <string name="notes_file_unavailable">The notes file is unavailable, sorry.</string>
+    
+    <string name="tdc_dialog_add_note_unsaved">Sorry, the note could not be saved.</string>
+    <string name="tdc_dialog_add_note_saved">The note was added, check it after speech.</string>
+    
+    <string name="tdc_dialog_professional_info_code_label">Code </string>
+    <string name="tdc_dialog_professional_info_name_label">Name </string>
+    <string name="tdc_dialog_professional_info_role_label">Role </string>
+    <string name="tdc_dialog_professional_info_ok">OK</string>
+    
+
+</resources>

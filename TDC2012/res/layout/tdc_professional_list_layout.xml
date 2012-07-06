@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/prof_list_row_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/tdc_img_content_desc_default"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/tdc_minilogo" />
+
+    <TextView
+        android:id="@+id/prof_list_row_title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" 
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/prof_list_row_logo"
+        />
+    
+    <TextView
+        android:id="@+id/prof_list_row_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="@android:color/black" 
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/prof_list_row_logo"
+        android:layout_below="@+id/prof_list_row_title"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="tdc_database">tdc2012_db</string>
+    <string name="tdc_database_version">1</string>
+    
+    <string name="professional_table">professional</string>
+    <string name="professional_create">create table professional (name text not null primary key, role int not null);</string>
+    <string name="professional_drop">drop table professional if exists;</string>
+    <string name="professional_field_name">name</string>
+    <string name="professional_field_role">role</string>
+    
+    <string name="speech_table">speech</string>
+    <string name="speech_create">create table speech (title text not null primary key, description text not null, professional_name text not null, speech_date text not null)</string>
+    <string name="speech_drop">drop table speech if exists;</string>
+    <string name="speech_field_title">title</string>
+    <string name="speech_field_description">description</string>
+    <string name="speech_field_professional_name">professional_name</string>
+    <string name="speech_field_speech_date">speech_date</string>
+    
+    <string name="tdc_notes_file">/data/data/br.com.thedevelopersconference.databaseapp/files/my_notes.txt</string>
+    
+</resources>

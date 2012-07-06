@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tdc_logo"
+        android:contentDescription="@string/tdc_img_content_desc_default" />
+    
+    <TextView android:text="@string/tdc_add_prof_name"
+        style="@style/general_textfield_label" />
+    
+    <EditText 
+        android:id="@+id/tdc_add_prof_name"
+        style="@style/general_edittext_style"
+        android:hint="@string/tdc_add_prof_name_hint" />
+    
+    <TextView android:text="@string/tdc_add_prof_role"
+        style="@style/general_textfield_label" />
+    
+    <Spinner 
+        android:id="@+id/tdc_add_prof_roles"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" >
+        
+        <Button
+            android:id="@+id/tdc_add_prof_action_add"
+            style="@style/actions_home"
+            android:text="@string/tdc_add_prof_action_add"
+            android:layout_weight="1"
+            android:layout_margin="5dp" />
+        
+        <Button
+            android:id="@+id/tdc_add_prof_action_discard"
+            style="@style/actions_home"
+            android:text="@string/tdc_add_prof_action_discard"
+            android:layout_weight="1"
+            android:layout_margin="5dp" />
+        
+    </LinearLayout>
+
+</LinearLayout>

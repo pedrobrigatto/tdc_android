@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tdc_logo"
+        android:contentDescription="@string/tdc_img_content_desc_default" />
+    
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_add_speech_title" />
+
+    <EditText
+        android:id="@+id/tdc_add_speech_title_text"
+        style="@style/general_edittext_style"
+        android:hint="@string/tdc_add_speech_title_hint" />
+
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_add_speech_desc" />
+
+    <EditText
+        android:id="@+id/tdc_add_speech_desc_text"
+        style="@style/general_edittext_style"
+        android:layout_height="80dp"
+        android:hint="@string/tdc_add_speech_description_hint"
+        android:lines="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            style="@style/general_textfield_label"
+            android:text="@string/tdc_add_speech_when"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/tdc_add_speech_when_text"
+            android:layout_height="60dp"
+            style="@style/general_edittext_style"
+            android:hint="@string/tdc_add_speech_date_hint" />
+        
+    </LinearLayout>
+    
+    <TextView
+        style="@style/general_textfield_label"
+        android:text="@string/tdc_add_speech_professional" />
+
+    <Spinner
+        android:id="@+id/tdc_add_speech_professionals"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/tdc_add_speech_action_add"
+            style="@style/actions_home"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/tdc_add_speech_action_save" />
+
+        <Button
+            android:id="@+id/tdc_add_speech_action_discard"
+            style="@style/actions_home"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/tdc_add_speech_action_discard" />
+    </LinearLayout>
+
+</LinearLayout>
