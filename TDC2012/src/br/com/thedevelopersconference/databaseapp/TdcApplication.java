@@ -13,7 +13,7 @@ public class TdcApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		
+		//teste
 		Resources res = getResources();
 		
 		// As soon as the app is created, a key is stored in the preferences file,
